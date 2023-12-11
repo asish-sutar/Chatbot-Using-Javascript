@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chatbot</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/339e4da052.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-rounded">Open</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined"><i class="fa-solid fa-robot"></i></span>
+                <p>Hi I am Asish 😎<br>How can I help you?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter Something..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded"><i class="fa-regular fa-share-from-square"></i></span>
+        </div>
+    </div>
+
+</body>
+
+</html>
